@@ -1,0 +1,135 @@
+body {
+	font-family: 'Lato', sans-serif;
+	color: #5d614e;
+}
+
+h1 {
+	font-family: 'Quicksand', 'Lato', sans-serif;
+}
+
+@media screen and (min-width: 400px) {
+	.logo:before {
+		content: "";
+		background-image: url(../icons/logomark.svg);
+		background-size: cover;
+		height: 70px;
+		width: 70px;
+		float: left;
+	}
+}
+
+body > header,
+main > section {
+	border-bottom: 3px solid;
+	border-color: #bcbbbb;
+	margin: 0 0 20px;
+}
+
+main > section:last-child {
+	border-bottom: 0;
+}
+
+header {
+	padding: 0 0.5em;
+}
+
+footer {
+	padding: 1em 0.5em;
+	background: #bcbbbb;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+.work a {
+	color: #5d614e;
+}
+
+.work a:hover {
+	color: #2b2c02;
+}
+
+figure img {
+	margin: auto;
+}
+
+figcaption h3 {
+	text-transform: uppercase;
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+@media screen and (max-width: 767px) {
+	.flex-box {
+		width: 100%
+	}
+
+	.description h3 {
+		display: none;
+	}
+
+	#appify { order: 1; }
+	.work-appify { order: 2; }
+	#sunflower { order: 3; }
+	.work-sunflower { order: 4; }
+	#bokeh { order: 5; }
+	.work-bokeh { order: 6; }
+}
+
+@media screen and (min-width: 768px) {
+	#appify { order: 1; }
+	#sunflower { order: 2; }
+	#bokeh { order: 3; }
+	.work-appify { order: 4; }
+	.work-sunflower { order: 5; }
+	.work-bokeh { order: 6; }
+}
+
+.work + .description {
+	display: none;
+}
+
+:target + .description {
+	display: block;
+}
+
+.big-banner img {
+	margin: auto;
+}
+
+.feature {
+	color: #bcbbbb;
+}
+
+.hash-router-logo {
+	font: 5em monospace;
+}
+
+ul.social-links {
+	padding: 0;
+	list-style: none;
+	text-align: right;
+}
+
+ul.social-links > li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+ul.social-links > li:first-child {
+	margin-left: 0;
+}
+
+ul.social-links > li:last-child {
+	margin-right: 0;
+}
+
+@media screen and (max-width: 767px) {
+	ul.social-links {
+		text-align: left;
+	}
+}
