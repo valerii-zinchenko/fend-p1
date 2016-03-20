@@ -18,19 +18,42 @@
 		<p>Front-End ninja</p>
 	</header>
 
+	<nav class="navbar navbar-default" data-spy="affix" data-offset-top="150">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-controls" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+
+			<!-- navigation elements -->
+			<div id="nav-controls" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="#appify">Appify</a></li>
+					<li><a href="#sunflower">Sunflower</a></li>
+					<li><a href="#bokeh">Bokeh</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
 	<main>
 		<div class="big-banner">
 			<p><img src="images/meta-720-origin.png" srcset="images/meta-origin.png 987w, images/meta-720-origin.png 720w, images/meta-720-half.png 360w, images/meta-720-quarter.png 180w" sizes="(min-width: 987px) 987px" alt="Big banner" class="img-responsive"></p>
 		</div>
 
-		<section>
+		<section id="all-works">
 			<header class="feature">
 				<h2>Featured Work</h2>
 			</header>
 
 			<div class="row flex-container">
+				<!-- Appify work -->
 				<section id="appify" class="col-sm-4 flex-box work">
-					<a href="#appify">
+					<a href="#appify" class="work-link">
 						<figure class="text-center">
 							<img src="images/appify-origin.png" srcset="images/appify-origin.png 360w, images/appify-half.png 180w" sizes="(min-width: 310px) 310px" class="img-responsive" alt="App Store icon rotated by 45 degree">
 							<figcaption>
@@ -40,6 +63,7 @@
 						</figure>
 					</a>
 				</section>
+				<!-- Appify description -->
 				<article class="col-sm-12 work-appify description flex-box">
 					<header>
 						<h3>Appify</h3>
@@ -48,8 +72,11 @@
 					<p>Dolor consectetur dicta hic velit nam facere atque est obcaecati obcaecati. Libero perferendis omnis magni vero adipisci, veritatis nisi. Odit beatae porro modi labore unde. Hic cupiditate accusamus velit fuga inventore temporibus earum pariatur magni, alias nostrum ratione assumenda eaque saepe minus delectus quam! Eligendi provident id eaque commodi labore?</p>
 					<p><a href="https://github.com/udacity/Appify/" target="_blank">https://github.com/udacity/Appify/</a></p>
 				</article>
+				<!-- end of Appify work -->
+
+				<!-- Sunflower work -->
 				<section id="sunflower" class="col-sm-4 work flex-box">
-					<a href="#sunflower">
+					<a href="#sunflower" class="work-link">
 						<figure class="text-center">
 							<img src="images/sunflower-origin.png" srcset="images/sunflower-origin.png 360w, images/sunflower-half.png 180w" sizes="(min-width: 310px) 310px" class="img-responsive" alt="Sunflower on the black background">
 							<figcaption>
@@ -59,6 +86,7 @@
 						</figure>
 					</a>
 				</section>
+				<!-- Sunflower description -->
 				<article class="col-sm-12 work-sunflower description flex-box">
 					<header>
 						<h3>Sunflower</h3>
@@ -67,8 +95,11 @@
 					<p>Adipisicing possimus error ducimus accusamus totam velit voluptatibus nemo asperiores iure? Enim labore nam molestias possimus quos. Ipsa dolores beatae dicta a voluptas, quidem. Saepe autem beatae animi nemo eaque perspiciatis nostrum laboriosam nihil deserunt, quod ipsam excepturi? Quas velit totam hic dicta incidunt? Alias rerum deleniti est cum pariatur.</p>
 					<p><a href="https://github.com/udacity/Sunflower/" target="_blank">https://github.com/udacity/Sunflower/</a></p>
 				</article>
+				<!-- end of Sunflower work -->
+
+				<!-- Bokeh work -->
 				<section id="bokeh" class="col-sm-4 work flex-box">
-					<a href="#bokeh">
+					<a href="#bokeh" class="work-link">
 						<figure class="text-center">
 							<img src="images/bokeh-origin.png" srcset="images/bokeh-origin.png 360w, images/bokeh-half.png 180w" sizes="(min-width: 310px) 310px" class="img-responsive" alt="The view on the sky with the sun in the center over the the glass with few medium drops">
 							<figcaption>
@@ -78,6 +109,7 @@
 						</figure>
 					</a>
 				</section>
+				<!-- Bokeh description -->
 				<article class="col-sm-12 work-bokeh description flex-box">
 					<header>
 						<h3>Bokeh</h3>
@@ -86,6 +118,7 @@
 					<p>Adipisicing lorem nam tempora sit facere dolores iure harum. Mollitia voluptatum quod animi libero iste nobis! At accusamus totam provident dolores praesentium fugit minima atque molestiae ducimus cupiditate explicabo. Nihil quasi atque cumque hic accusantium! Obcaecati temporibus non veritatis possimus distinctio veritatis! Cupiditate aliquid veniam quasi fugit aperiam. Eligendi eligendi?<p></p>
 					<p><a href="https://github.com/udacity/Bokeh/" target="_blank">https://github.com/udacity/Bokeh/</a></p>
 				</article>
+				<!-- end of Bokeh -->
 			</div>
 		</section>
 	</main>
@@ -102,5 +135,12 @@
 			</ul>
 		</div>
 	</footer>
+
+	<!-- external scripts -->
+	<script src="http://code.jquery.com/jquery-2.2.2.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+	<!-- my scripts -->
+	<script src="js/navbar.js"></script>
 </body>
 </html>
