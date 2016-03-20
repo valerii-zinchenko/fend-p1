@@ -18,12 +18,34 @@
 		<p>Front-End ninja</p>
 	</header>
 
+	<nav class="navbar navbar-default" data-spy="affix" data-offset-top="150">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-controls" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+
+			<!-- navigation elements -->
+			<div id="nav-controls" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="#appify">Appify</a></li>
+					<li><a href="#sunflower">Sunflower</a></li>
+					<li><a href="#bokeh">Bokeh</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
 	<main>
 		<div class="big-banner">
 			<p><img src="images/meta-720-origin.png" srcset="images/meta-origin.png 987w, images/meta-720-origin.png 720w, images/meta-720-half.png 360w, images/meta-720-quarter.png 180w" sizes="(min-width: 987px) 987px" alt="Big banner" class="img-responsive"></p>
 		</div>
 
-		<section>
+		<section id="all-works">
 			<header class="feature">
 				<h2>Featured Work</h2>
 			</header>
@@ -113,5 +135,12 @@
 			</ul>
 		</div>
 	</footer>
+
+	<!-- external scripts -->
+	<script src="http://code.jquery.com/jquery-2.2.2.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+	<!-- my scripts -->
+	<script src="js/navbar.js"></script>
 </body>
 </html>
