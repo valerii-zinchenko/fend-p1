@@ -6,6 +6,9 @@
   "author": "Valerii Zinchenko",
   "license": "MIT",
   "repository": "valerii-zinchenko/fend-p1",
+  "scripts": {
+    "install": "grunt"
+  },
   "dependencies": {
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
