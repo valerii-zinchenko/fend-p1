@@ -1,6 +1,7 @@
 body {
 	font-family: "Lato", sans-serif;
 	color: #5d614e;
+	padding-top: 50px;
 }
 
 h1 {
@@ -36,13 +37,6 @@ footer {
 
 p {
 	margin-bottom: 20px;
-}
-
-nav.affix {
-	width: 100%;
-	top: 0;
-	left: 0;
-	z-index: 1;
 }
 
 .work-link {

@@ -3,13 +3,6 @@
 Result: http://valerii-zinchenko.github.io/fend-p1/
 
 
-## My main goal
-
-Replicate the [provided mockup](design-mockup-portfolio.pdf) as much as possible (fonts, colors, layout etc.) and extend it a bit by my vision.
-
-New Udacity logo but with orange color is used just to show some life of the site. The world is changing, the vision is changing, the logo is changing :smile:
-
-
 ## Features
 
 * Logo is visible if it is not obstruct the name
@@ -18,6 +11,7 @@ New Udacity logo but with orange color is used just to show some life of the sit
 * Responsive layout by using Bootstrap and Flexbox
 * Responsive images
 * By clicking on the work the description (Lorem Ipsum) will be displayed
+* Navigation bar
 
 
 ## Build
