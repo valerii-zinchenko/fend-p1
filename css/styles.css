@@ -19,14 +19,10 @@ h1 {
 }
 
 body > header,
-main > section {
+main .big-banner {
 	border-bottom: 3px solid;
 	border-color: #bcbbbb;
 	margin: 0 0 20px;
-}
-
-main > section:last-child {
-	border-bottom: 0;
 }
 
 header {
