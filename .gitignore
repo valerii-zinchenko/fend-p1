@@ -1,0 +1,7 @@
+# files
+**/*.swp
+images/meta-720.png
+
+# folders
+node_modules/
+dest/
